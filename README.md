@@ -2,7 +2,7 @@
 快速检测struts命令执行漏洞，可批量。
 
 # 运行环境
-MAC/Linux下的Python2
+Windows下的Python2
 
 # 支持对以下版本的检测
 
@@ -19,6 +19,8 @@ ST2-019
 ST2-020
 
 ST2-devmode
+
+ST2-devmode-post
 
 ST2-032
 
@@ -61,5 +63,11 @@ ST2-053
 [+]增加linux和win的可执行文件,windows需要.NET环境。
 
 [+]增加写入文件功能,针对有漏洞的struts版本号会自动写入success.txt文件。
+
+[+]增加ST2-devmode post方式验证。
+
+[+]修改cprint编码在windows下中文乱码问题。
+
+[+]适应批量暂时关闭S2-053检测
 # 特别说明
 此工具仅限于漏洞验证，如若使用者引起相关的法律责任请自负，开发者不承担连带责任。
