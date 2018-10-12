@@ -1,3 +1,0 @@
-检测struts2漏洞: http://www.northjoytech.com/login.action
-struts2-032 success!!!
-检测struts2漏洞: http://www.northjoytech.com/login.action
