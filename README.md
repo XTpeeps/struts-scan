@@ -8,6 +8,8 @@ Windows下的Python2
 
 ST2-005
 
+ST2-008
+
 ST2-009
 
 ST2-013
@@ -60,6 +62,8 @@ ST2-057
 
 [+]修改struts2-048的payload
 
+[+]增加struts2-057检测和利用,生产环境还没有找到可利用的例子，实属鸡肋的洞,参考https://github.com/Ivan1ee/struts2-057-exp。
+
 # 二次开发部分 Edit by XT.
 [+]针对某些超时的情况,注释掉``` httplib.HTTPConnection._http_vsn = 10 和httplib.HTTPConnection._http_vsn_str = 'HTTP/1.0'```这两行再测试一遍,因为有的可能不支持HTTP/1.0的协议。
 
@@ -76,7 +80,9 @@ ST2-057
 [+]展示漏洞检测的时候命令执行结果
 ![image](./images/newscan.png)
 
-[+]同步了Lucifer1993大佬的st2-057检测的两个poc
+[+]同步了Lucifer1993的st2-057检测的两个poc，利用
+
+[+]同步了Lucifer1993的st2-008检测的两个poc,利用
 
 
 
